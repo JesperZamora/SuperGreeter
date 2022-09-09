@@ -8,6 +8,7 @@ public class SuperGreeter {
         s.age();
         s.country();
         s.stupid();
+        s.evenStupider();
     }
 
     public void start() {
@@ -37,6 +38,9 @@ public class SuperGreeter {
 
     public void stupid(){
         System.out.println("Stupid");
+    }
+    public void evenStupider(){
+        System.out.println("Even Stupider");
     }
 
 
