@@ -6,6 +6,7 @@ public class SuperGreeter {
         s.start();
         s.greet();
         s.age();
+        s.country();
     }
 
     public void start() {
@@ -24,6 +25,13 @@ public class SuperGreeter {
         Scanner sc = new Scanner(System.in);
         int alder = sc.nextInt();
         System.out.println("Du er "+ alder + "år");
+    }
+
+    public void country() {
+        System.out.println("Hvor du fra?");
+        Scanner sc = new Scanner(System.in);
+        String land = sc.nextLine();
+        System.out.println("Du er fra"+land);
     }
 
 
