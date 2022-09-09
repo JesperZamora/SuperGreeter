@@ -7,6 +7,7 @@ public class SuperGreeter {
         s.greet();
         s.age();
         s.country();
+        s.stupid();
     }
 
     public void start() {
@@ -32,6 +33,10 @@ public class SuperGreeter {
         Scanner sc = new Scanner(System.in);
         String land = sc.nextLine();
         System.out.println("Du er fra"+land);
+    }
+
+    public void stupid(){
+        System.out.println("Stupid");
     }
 
 
